@@ -1,0 +1,10 @@
+type bdfResource @model @auth(rules:[{ allow: owner }]) {
+  id: ID!
+  filename: String!
+  description: String
+  owner: String
+  category: String!
+  date: AWSDate
+  url: String!
+  internal: Boolean!
+}

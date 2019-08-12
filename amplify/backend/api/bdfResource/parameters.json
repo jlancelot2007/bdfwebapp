@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "bdfResource",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authbdfwebappdf25b407",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

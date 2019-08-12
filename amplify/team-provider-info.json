@@ -1,0 +1,19 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "bdfwebapp-prod-20190812130039-authRole",
+            "UnauthRoleArn": "arn:aws:iam::035093230872:role/bdfwebapp-prod-20190812130039-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::035093230872:role/bdfwebapp-prod-20190812130039-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "bdfwebapp-prod-20190812130039-deployment",
+            "UnauthRoleName": "bdfwebapp-prod-20190812130039-unauthRole",
+            "StackName": "bdfwebapp-prod-20190812130039",
+            "StackId": "arn:aws:cloudformation:eu-west-1:035093230872:stack/bdfwebapp-prod-20190812130039/5fc1c7d0-bcad-11e9-8081-023c5f756674"
+        },
+        "categories": {
+            "auth": {
+                "bdfwebappdf25b407": {}
+            }
+        }
+    }
+}
